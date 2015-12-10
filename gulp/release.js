@@ -23,7 +23,7 @@ gulp.task('npm-pub',shell.task([
 
 gulp.task('moveToDest',['npm-pub'], function(){
   gulptil.log('Moving example files to github.io...');
-  return gulp.src('dist/*.js')
+  return gulp.src(['example/*.js','example/*.html'])
     .pipe(gulp.dest(destFolderPath))
 });
 

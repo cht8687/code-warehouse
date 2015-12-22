@@ -1,6 +1,6 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 
-export default class ReactHover extends Component {
+export default class ReactComponent extends Component {
   static propTypes = {
     
   }

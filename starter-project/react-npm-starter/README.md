@@ -1,15 +1,15 @@
-# React tooltip 
+# Starter kit for building React NPM modules
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cht8687/help)
 
 This project is under construction.
-![React Hover](src/example/construction.png)
+![Module](src/example/construction.png)
 
 
 ## Development
 
 ```
-$ git clone git@github.com:cht8687/react-tooltip.git
-$ cd react-listview-sticky-header
+$ git clone git@github.com:cht8687/react-component.git
+$ cd react-component
 $ npm install
 $ webpack-dev-server
 ```

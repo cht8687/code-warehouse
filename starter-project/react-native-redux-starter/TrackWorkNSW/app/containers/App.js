@@ -9,36 +9,28 @@ import React, {
 } from 'react-native'
 import { connect } from 'react-redux/native'
 import { bindActionCreators } from 'redux';
-
+import Tabbar from '../components/Tabbar';
 import allActions from '../actions';
-
 
 export default class App extends Component {
 
   constructor (props) {
     super(props);
-    this.state = {
-      tab: null
-    };
   }
 
-  componentWillReceiveProps (props) {
-    const { application } = props;
-    this.setState({
-      tab: application.tab
-    })
+  componentWillReceiveProps (nextProps) {
+    
   }
 
-  render () {
-    const { tab } = this.state;
+  render() {
+    const { tabName, actions } = this.props;
 
     return (
-      <View style={styles.container}>
-        <Text>
-          TrackWork View
-        </Text>
-      </View>
-    )
+      <Tabbar
+        tabName={tabName}
+        actions={actions}
+      />
+    );
   }
 }
 
@@ -49,15 +41,24 @@ const styles = StyleSheet.create({
 })
 
 App.propTypes = {
+  tabName: PropTypes.string,
   actions: PropTypes.object
 }
 
-export default connect(state => {
+function mapStateToProps(state) {
   return {
-    application: state.application
-  }
-}, dispatch => {
+    tabName: state.tab.tabName
+  };
+}
+
+function mapDispatchToProps(dispatch) {
   return {
+    // changeTab: (tab) => dispatch(changeTab(tab))
     actions: bindActionCreators(allActions, dispatch)
-  }
-})(App)
+  };
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App)

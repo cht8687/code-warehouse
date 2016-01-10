@@ -2,11 +2,11 @@
 
 import { combineReducers } from 'redux';
 
-import application from './application';
+import { default as tab } from './tab';
 
 
 const reducers = combineReducers({
-  application
+  tab
 });
 
 export default reducers;

@@ -1,6 +1,6 @@
 'use strict'
 
-import { changeTab } from './application';
+import { changeTab } from './tab';
 
 const actions = {
   changeTab

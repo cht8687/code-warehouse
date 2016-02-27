@@ -174,6 +174,7 @@
     <Compile Include="Samples\ShoppingCartViewModel\ProductModel.cs" />
     <Compile Include="Samples\ShoppingCartViewModel\ShoppingCartController.cs" />
     <Compile Include="Samples\ShoppingCartViewModel\ShoppingCartViewModel.cs" />
+    <Compile Include="Samples\SpecifyingViews\SampleController.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -240,6 +241,11 @@
     <Content Include="Views\Albums\ListWeaklyTyped.cshtml" />
     <Content Include="Views\Albums\ListStronglyTyped.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
+    <Content Include="Views\Sample\PartialViewDemo.cshtml" />
+    <Content Include="Views\Sample\NotIndex.cshtml" />
+    <Content Include="Views\Sample\Message.cshtml" />
+    <Content Include="Views\Sample\Index.cshtml" />
+    <Content Include="Views\Example\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

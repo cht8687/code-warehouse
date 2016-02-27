@@ -39,12 +39,12 @@ namespace DocExchange.Controllers
             return View();
         }
 
-        public ActionResult Advanced()
+        public ActionResult Advanced(int id)
         {
             var person = new DocExchange.Models.Person
             {
                 FirstName = "Robert",
-                LastName = "Chang"
+                LastName = "Chang" 
             };
             return View(person);
         }

@@ -12,3 +12,8 @@ git reset --soft HEAD^N
 git commit -m "Bla"
 
 
+#Reset head to certain commit
+
+git reset --hard <sha1-commit-id>
+git push origin HEAD --force
+

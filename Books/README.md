@@ -13,4 +13,6 @@
 - [ ] [Essential C#6.0, 5th Edition](http://www.amazon.com/Essential-6-0-Addison-Wesley-Microsoft-Technology/dp/0134141040/ref=sr_1_1?ie=UTF8&qid=1456830949&sr=8-1&keywords=essential+c%23+6.0)
 
 
+##Database
 
+- [ ] [Practical Neo4j](http://www.apress.com/9781484200230)

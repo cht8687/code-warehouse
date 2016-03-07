@@ -11,7 +11,7 @@ export default React.createClass({
           <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
           <li><NavLink to="/repos" activeClassName="active">Repos</NavLink></li>
         </ul>
-        {this.props.children}
+        {this.props.children  || <Home/>}
       </div>
     )
   }

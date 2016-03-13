@@ -1,0 +1,33 @@
+﻿<nav class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <a class="brand" href="/">
+            <span class="title">Code Camper</span>
+            <span class="jump-start-title">[Jumpstart] 
+                <a href="http://jpapa.me/spajsps" style="float:right;font-size: 120%">Learn how to build a SPA</a></span>
+        </a>
+        <div data-bind="css: { active: router.isNavigating }"
+            class="pull-right loader">
+            <i class="icon-spinner icon-2x icon-spin"></i>
+        </div>
+    </div>
+    <div class="navbar-inner navbar-secondary">
+        <div class="btn-group"
+             data-bind="foreach: router.visibleRoutes">
+            <a data-bind="attr: { href: hash },
+                css: { active: isActive },
+                html: settings.caption"
+               class="btn btn-info"></a>
+        </div>
+        <div class="btn-group">
+            <a class="btn btn-info dropdown-toggle"
+               data-toggle="dropdown"><i class="icon-user"></i>
+                <span class="text">Admin</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu pull-right">
+                <!-- ko foreach: adminRoutes -->
+                <li><a data-bind="click: $parent.addSession, html: caption" href="#"></a></li>
+                <!-- /ko -->
+            </ul>
+        </div>
+    </div>
+
+</nav>

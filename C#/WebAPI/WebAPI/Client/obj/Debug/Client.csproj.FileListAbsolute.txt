@@ -1,0 +1,6 @@
+E:\JavaScript\OpenSource\Github\code-warehouse\C#\WebAPI\WebAPI\Client\bin\Client.dll.config
+E:\JavaScript\OpenSource\Github\code-warehouse\C#\WebAPI\WebAPI\Client\bin\Client.dll
+E:\JavaScript\OpenSource\Github\code-warehouse\C#\WebAPI\WebAPI\Client\bin\Client.pdb
+E:\JavaScript\OpenSource\Github\code-warehouse\C#\WebAPI\WebAPI\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\JavaScript\OpenSource\Github\code-warehouse\C#\WebAPI\WebAPI\Client\obj\Debug\Client.dll
+E:\JavaScript\OpenSource\Github\code-warehouse\C#\WebAPI\WebAPI\Client\obj\Debug\Client.pdb

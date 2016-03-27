@@ -4,7 +4,7 @@
 
     angular
           .module("common.services",
-                     ["ngResources"])
+                     ["ngResource"])
           .constant("appSettings",
           {
               serverPath: "http://localhost:48828"

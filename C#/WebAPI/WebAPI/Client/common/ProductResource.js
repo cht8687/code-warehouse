@@ -3,10 +3,9 @@
     "using strict";
 
     angular
-          .module("common.services",
-                     ["ngResources"])
+          .module("common.services")
           .factory("productResource",
-                    ["$resource", "appSetings", productResource])
+                    ["$resource", "appSettings", productResource])
 
     function productResource($resource, appSettings) {
         return $resource(appSettings.serverPath + "/api/products/:id");

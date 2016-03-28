@@ -18,10 +18,10 @@
             </thead>
             <tbody>
                 <tr ng-repeat="product in vm.products">
-                    <td>{{ product.ProductName}}</td>
-                    <td>{{ product.ProductCode }}</td>
+                    <td>{{ product.productName}}</td>
+                    <td>{{ product.productCode }}</td>
                     <td>{{ product.ReleaseDate | date }}</td>
-                    <td>{{ product.Price | currency }}</td>
+                    <td>{{ product.price | currency }}</td>
                 </tr>
             </tbody>
         </table>

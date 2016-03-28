@@ -8,7 +8,7 @@
     function ProductListCtrl(productResource) {
         var vm = this;
 
-        productResource.query(function (data) {
+        productResource.query({search: 'GDN'}, function (data) {
             vm.products = data;
         });
     }

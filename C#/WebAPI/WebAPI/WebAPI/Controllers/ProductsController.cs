@@ -6,6 +6,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using System.Web.OData;
 using WebAPI.Models;
 
 namespace WebAPI.Controllers
@@ -14,10 +15,11 @@ namespace WebAPI.Controllers
     public class ProductsController : ApiController
     {
         // GET: api/Products
+        [EnableQuery()]
         public IEnumerable<Product> Get()
         {
             var productRepository = new ProductRepository();
-            return productRepository.Retrieve();
+            return productRepository.Retrieve().AsQueryable();
         }
 
         public IEnumerable<Product> Get(string search)

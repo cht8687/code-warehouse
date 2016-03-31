@@ -18,3 +18,8 @@
 ##Database
 
 - [ ] [Practical Neo4j](http://www.apress.com/9781484200230)
+
+
+##AI
+
+- [ ] [Pattern Recognition and Machine Learning](http://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/ref=pd_sim_14_7?ie=UTF8&dpID=61zEpn8lkRL&dpSrc=sims&preST=_AC_UL160_SR119%2C160_&refRID=1YDN3HQNSTSVMX3E5M1S)

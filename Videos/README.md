@@ -5,3 +5,5 @@
 - [ ] [ASP.NET Core 1.0 Fundamentals](https://app.pluralsight.com/library/courses/aspdotnet-core-1-0-fundamentals/table-of-contents)
 
 - [ ] [Docker for Web Developers](https://app.pluralsight.com/library/courses/docker-web-development/table-of-contents)
+
+- [ ] [Angular 2: Getting Started](https://app.pluralsight.com/library/courses/angular-2-getting-started/table-of-contents)

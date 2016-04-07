@@ -10,6 +10,7 @@
 - [ ] [JavaScript with Promises](http://shop.oreilly.com/product/0636920032151.do)
 - [ ] [Knockout.js](http://shop.oreilly.com/product/0636920035367.do#PowerReview)
 - [ ] [Reactive Programming with RxJS](http://www.amazon.com/Reactive-Programming-RxJS-Asynchronous-JavaScript-ebook/dp/B01ATYZTI4)
+- [ ] [Express in Action](https://www.manning.com/books/express-in-action)
 
 
 ##C# #

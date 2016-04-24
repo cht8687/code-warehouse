@@ -9,3 +9,5 @@
 - [ ] [Angular 2: Getting Started](https://app.pluralsight.com/library/courses/angular-2-getting-started/table-of-contents)
 
 - [ ] [Xamarin University](https://www.xamarin.com/visual-studio-dev-essentials?token=1eee6bd8-e7af-4234-a645-e3eeb3124a85&company=InfoTrack)
+
+- [ ] [LFCS: Linux Networking](https://app.pluralsight.com/library/courses/lfcs-linux-networking/table-of-contents)

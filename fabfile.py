@@ -22,6 +22,8 @@ def start_release():
   local('git flow release finish {} -m {} -k'.format(new_version, new_version))
   local('git push --tags')
 
+
+
 def get_release_version():
   now = datetime.datetime.now();
   return now.strftime('%Y%m%d')

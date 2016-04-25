@@ -30,3 +30,6 @@
 ##DevOPs
 - [ ] [Docker Cookbook](http://shop.oreilly.com/product/0636920036791.do)
 
+##Algorithms
+
+- [ ] [Introduction to Algorithms, 3rd Edition ](http://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=pd_sim_14_2?ie=UTF8&dpID=51eDwv7tCtL&dpSrc=sims&preST=_AC_UL320_SR284%2C320_&refRID=11VQ2G8C7Y9CANRJD26H)

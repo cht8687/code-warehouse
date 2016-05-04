@@ -11,3 +11,5 @@
 - [ ] [Xamarin University](https://www.xamarin.com/visual-studio-dev-essentials?token=1eee6bd8-e7af-4234-a645-e3eeb3124a85&company=InfoTrack)
 
 - [ ] [LFCS: Linux Networking](https://app.pluralsight.com/library/courses/lfcs-linux-networking/table-of-contents)
+
+- [ ] [AWS](https://app.pluralsight.com/library/courses/continuous-delivery-automation-aws-certified-devops-engineer/table-of-contents)

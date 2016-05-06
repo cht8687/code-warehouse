@@ -20,3 +20,11 @@ git commit -m "Bla"
 git reset --hard <sha1-commit-id>
 git push origin HEAD --force
 ```
+
+#Enable creditial-cache on windows
+
+```bash
+
+git config --global credential.helper wincred
+
+```

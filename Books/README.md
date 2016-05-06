@@ -12,6 +12,9 @@
 - [ ] [Reactive Programming with RxJS](http://www.amazon.com/Reactive-Programming-RxJS-Asynchronous-JavaScript-ebook/dp/B01ATYZTI4)
 - [ ] [Express in Action](https://www.manning.com/books/express-in-action)
 
+##Git
+
+- [ ] [Mastering Git](http://www.amazon.com/Mastering-Git-Jakub-Narebski/dp/1783553758)
 
 ##C# #
 

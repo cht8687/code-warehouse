@@ -28,3 +28,11 @@ git push origin HEAD --force
 git config --global credential.helper wincred
 
 ```
+#Sync a fork
+
+```bash
+git remote add upstream https://github.com/whoever/whatever.git
+git fetch upstream
+git checkout master
+git rebase upstream/master
+```

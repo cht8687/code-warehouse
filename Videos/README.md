@@ -13,3 +13,5 @@
 - [ ] [LFCS: Linux Networking](https://app.pluralsight.com/library/courses/lfcs-linux-networking/table-of-contents)
 
 - [ ] [AWS](https://app.pluralsight.com/library/courses/continuous-delivery-automation-aws-certified-devops-engineer/table-of-contents)
+
+- [ ] [Electron Playbook](https://app.pluralsight.com/library/courses/electron-playbook/description)

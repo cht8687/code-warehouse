@@ -15,3 +15,5 @@
 - [ ] [AWS](https://app.pluralsight.com/library/courses/continuous-delivery-automation-aws-certified-devops-engineer/table-of-contents)
 
 - [ ] [Electron Playbook](https://app.pluralsight.com/library/courses/electron-playbook/description)
+
+- [ ] [react redux react router](https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents)

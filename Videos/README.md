@@ -17,3 +17,5 @@
 - [ ] [Electron Playbook](https://app.pluralsight.com/library/courses/electron-playbook/description)
 
 - [ ] [react redux react router](https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents)
+
+- [ ] [Docker ansible continuous delivery](https://app.pluralsight.com/library/courses/docker-ansible-continuous-delivery/table-of-contentsdocker-ansible-continuous-delivery

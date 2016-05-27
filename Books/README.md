@@ -33,6 +33,7 @@
 
 ##DevOPs
 - [ ] [Docker Cookbook](http://shop.oreilly.com/product/0636920036791.do)
+- [ ] [DeveOps of the Microsoft stack](http://www.apress.com/9781484214473)
 
 ##Algorithms
 

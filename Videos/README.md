@@ -19,3 +19,5 @@
 - [ ] [react redux react router](https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents)
 
 - [ ] [Docker ansible continuous delivery](https://app.pluralsight.com/library/courses/docker-ansible-continuous-delivery/table-of-contentsdocker-ansible-continuous-delivery
+
+- [X] [Building a Consistent RESTful API with OData V4 in ASP.NET](https://app.pluralsight.com/library/courses/asp-dot-net-odata-v4-restful-api/table-of-contents)

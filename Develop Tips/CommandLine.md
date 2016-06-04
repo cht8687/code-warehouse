@@ -4,7 +4,7 @@
 
 Set up an alias in ~/.bash_profile by adding the following line:
 
-alias myFolderShortcut='cd /Users/danielbeck/Documents'
+alias myFolderShortcut='cd /Users/yourprojectpath'
 
 source ~/.bash_profile
 

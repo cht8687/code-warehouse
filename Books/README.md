@@ -47,3 +47,7 @@
 
 ##Python
 - [ ] [Python playground](https://www.nostarch.com/pythonplayground)
+
+##Unity3d
+
+- [ ][Unity 5.x Animation Cookbook](https://www.amazon.com/Unity-Animation-Cookbook-Maciej-Szczesnik-ebook/dp/B01CJV3VY4)

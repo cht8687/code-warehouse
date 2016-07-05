@@ -47,3 +47,10 @@
 
 ##Python
 - [ ] [Python playground](https://www.nostarch.com/pythonplayground)
+
+##Unity3d
+
+- [ ][Unity 5.x Animation Cookbook](https://www.amazon.com/Unity-Animation-Cookbook-Maciej-Szczesnik-ebook/dp/B01CJV3VY4)
+
+##Raspberry Pi
+- [ ] [Raspberry Pi Cookbook, 2nd Edition](http://shop.oreilly.com/product/0636920045182.do)

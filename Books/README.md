@@ -54,3 +54,7 @@
 
 ##Raspberry Pi
 - [ ] [Raspberry Pi Cookbook, 2nd Edition](http://shop.oreilly.com/product/0636920045182.do)
+
+##Machine Learning
+
+- [ ] [Introduction to Machine Learning with Python](http://shop.oreilly.com/product/0636920030515.do)

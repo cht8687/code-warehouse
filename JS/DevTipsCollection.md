@@ -1,7 +1,7 @@
 #Dev tips
 
 
-### Cancel an ajax call:
+### Cancel an ajax call in jQuery
 
 ```js
 var xhr = $.ajax({
@@ -23,12 +23,12 @@ if (value) {
 ```
 
 will evaluate to true if `value` is not:
-*null
-*undefined
-*NaN
-*empty string
-*0
-*false
+* null
+* undefined
+* NaN
+* empty string
+* 0
+* false
 
 
 

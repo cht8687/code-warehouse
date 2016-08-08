@@ -14,6 +14,14 @@ git reset --soft HEAD^N
 git commit -m "Bla"
 ```
 
+#Squash commits from last N commits and push to remote
+
+```bash
+git reset --soft HEAD^N
+git commit -m "Bla"
+git push --force origin my_branch
+```
+
 #Reset head to certain commit
 
 ```bash

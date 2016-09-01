@@ -1,6 +1,27 @@
 ##Vmare Tools or open-vm-tools
-https://www.thomas-krenn.com/en/wiki/VMware_Tools_or_open-vm-tools
-http://packages.vmware.com/tools/index.html
+
+```bash
+sudo apt-get install open-vm-tools open-vm-tools-desktop
+```
+
+#MongoDB
 
 ## Install mongodb on debian
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/
+
+## Start MongoDB
+```bash
+sudo service mongod start
+```
+## Stop MongoDB
+```bash
+sudo service mongod stop
+```
+## Restart MongoDB
+```bash
+sudo service mongod restart
+```
+## Log
+```
+/var/log/mongodb/mongod.log
+```

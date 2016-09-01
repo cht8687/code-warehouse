@@ -25,3 +25,9 @@ sudo service mongod restart
 ```
 /var/log/mongodb/mongod.log
 ```
+
+
+# i3 
+
+su
+dpkg-reconfigure x11-common

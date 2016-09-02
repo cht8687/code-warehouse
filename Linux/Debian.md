@@ -31,3 +31,9 @@ sudo service mongod restart
 
 su
 dpkg-reconfigure x11-common
+
+
+# VS Code
+
+https://code.visualstudio.com/docs/setup/linux
+

@@ -1,3 +1,6 @@
+# List all
+alias listall='cd; cat .bash_profile'
+alias reload='source .bash_profile'
 # Bash
 alias ls='ls -laghFG'
 alias ll='ls -laghFG'
@@ -15,7 +18,14 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 
+# Git git diff-so-fancy
+alias dsf = 'git diff --color | diff-so-fancy'
+
 # Software
 alias reload='source ~/.bash_profile'
-alias subl="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe" 
 
+# Services
+alias mst='sudo service mongod start'
+alias msp='sudo service mongod stop'
+alias mrs='sudo service mongod restart'
+alias mlog='cat /var/log/mongodb/mongod.log'

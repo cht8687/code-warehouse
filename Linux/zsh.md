@@ -30,3 +30,6 @@ Directory: /home/yoda Shell: /bin/zsh
 
 If you want to customize the Z-shell, edit ~/.zshrc: vim ~/.zshrc
 ```
+
+
+[Tutorial](https://www.codementor.io/linux/tutorial/configure-linux-toolset-zsh-tmux-vim)

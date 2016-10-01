@@ -25,3 +25,5 @@
 - [ ] [AWS Certified Solutions Architect - Professional](https://app.pluralsight.com/library/courses/aws-certified-solutions-architect-professional/table-of-contents)
 
 - [ ] [Javascript-solve-math-problems](https://app.pluralsight.com/library/courses/javascript-solve-math-problems/table-of-contents)
+
+- [ ] [hardcore-functional-programming-javascript](https://app.pluralsight.com/library/courses/hardcore-functional-programming-javascript/table-of-contents)

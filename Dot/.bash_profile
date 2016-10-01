@@ -18,14 +18,17 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 
-# Git git diff-so-fancy
-alias dsf = 'git diff --color | diff-so-fancy'
+alias dsf='git diff --color | diff-so-fancy'
 
 # Software
 alias reload='source ~/.bash_profile'
 
 # Services
-alias mst='sudo service mongod start'
+alias ms='sudo service mongod start'
 alias msp='sudo service mongod stop'
 alias mrs='sudo service mongod restart'
 alias mlog='cat /var/log/mongodb/mongod.log'
+
+# tmux
+
+alias t='tmux'

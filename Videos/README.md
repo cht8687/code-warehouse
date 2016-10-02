@@ -27,3 +27,5 @@
 - [ ] [Javascript-solve-math-problems](https://app.pluralsight.com/library/courses/javascript-solve-math-problems/table-of-contents)
 
 - [ ] [hardcore-functional-programming-javascript](https://app.pluralsight.com/library/courses/hardcore-functional-programming-javascript/table-of-contents)
+
+- [X] [The future of ES6 (Jafar Husain) - Full Stack Fest 2016](https://www.youtube.com/watch?v=3pKNRgResq0&list=PLe9psSNJBf76DOOKMkDpyo_A5PfZk7JWc&index=21)

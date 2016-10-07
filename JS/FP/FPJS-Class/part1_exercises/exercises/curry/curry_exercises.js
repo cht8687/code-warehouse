@@ -28,11 +28,7 @@ var filterQs = _.filter(_.match(/q/i));
 var _keepHighest = function(x,y){ return x >= y ? x : y; };
 
 // REFACTOR THIS ONE:
-var max = function(xs) {
-  return _.reduce(function(acc, x){
-    return _keepHighest(acc, x);
-  }, 0, xs);
-};
+var max = _.reduce(_keepHighest, 0);
 
   
 // Bonus 1:

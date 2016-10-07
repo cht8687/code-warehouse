@@ -12,16 +12,13 @@ var words = _.split(' ');
 //==============
 // Use map to make a new words fn that works on an array of strings.
 
-var sentences = undefined;
+var sentences = _.map(words);
 
 // Exercise 2
 //==============
 // Refactor to remove all arguments by partially applying the functions
 
-var filterQs = function(xs) {
-  return _.filter(function(x){ return _.match(/q/i, x);  }, xs);
-};
-
+var filterQs = _.filter(_.match(/q/i));
 
 // Exercise 3
 //==============

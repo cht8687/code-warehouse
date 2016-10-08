@@ -76,3 +76,54 @@ tmux select-pane -t :.+
 ```
 selects the next pane in numerical order
 
+
+## Helpful tmux commands
+
+```bash
+tmux list-keys
+```
+
+lists out every bound key and the tmux command it runs
+
+```bash
+tmux list-commands
+```
+
+lists out every tmux command and its arguments
+
+```bash
+tmux info
+```
+
+lists out every session, window, pane, its pid, etc.
+
+```bash
+tmux source-file ~/.tmux.conf
+```
+reloads the current tmux configuration (based on a default tmux config)
+Must-haves
+
+
+## These are some of my must-haves in tmux config:
+
+remap prefix to Control + a
+```bash
+set -g prefix C-a
+```
+unbind C-b
+
+```bash
+bind C-a send-prefix
+```
+
+force a reload of the config file
+unbind r
+```bash
+bind r source-file ~/.tmux.conf
+```
+
+quick pane cycling
+unbind ^A
+```bash
+bind ^A select-pane -t :.+
+```

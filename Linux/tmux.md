@@ -28,3 +28,23 @@ lists existing tmux sessions
 tmux detach (prefix + d)
 ```
 detach the currently attached session
+
+
+
+## Windows
+
+```bash
+tmux new-window (prefix + c)
+```
+create a new window
+
+```bash
+tmux select-window -t :0-9 (prefix + 0-9)
+```
+move to the window based on index
+
+```bash
+tmux rename-window (prefix + ,)
+```
+
+rename the current window

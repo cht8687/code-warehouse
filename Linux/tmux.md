@@ -48,3 +48,31 @@ tmux rename-window (prefix + ,)
 ```
 
 rename the current window
+
+
+## Panes
+```bash
+tmux split-window (prefix + ")
+```
+splits the window into two vertical panes
+
+```bash
+tmux split-window -h (prefix + %)
+```
+splits the window into two horizontal panes
+
+```bash
+tmux swap-pane -[UDLR] (prefix + { or })
+```
+swaps pane with another in the specified direction
+
+```bash
+tmux select-pane -[UDLR]
+```
+selects the next pane in the specified direction
+
+```bash
+tmux select-pane -t :.+
+```
+selects the next pane in numerical order
+

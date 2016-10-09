@@ -1,10 +1,10 @@
-##Vmare Tools or open-vm-tools
+## Vmare Tools or open-vm-tools
 
 ```bash
 sudo apt-get install open-vm-tools open-vm-tools-desktop
 ```
 
-#MongoDB
+# MongoDB
 
 ## Install mongodb on debian
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-debian/
@@ -26,7 +26,6 @@ sudo service mongod restart
 /var/log/mongodb/mongod.log
 ```
 
-
 # i3 
 
 su
@@ -36,4 +35,12 @@ dpkg-reconfigure x11-common
 # VS Code
 
 https://code.visualstudio.com/docs/setup/linux
+
+# Install .Deb files
+
+sudo dpkg -i packagename.deb
+
+# Uninstall 
+
+sudo dpkg -r packagename
 

@@ -33,3 +33,12 @@ If you want to customize the Z-shell, edit ~/.zshrc: vim ~/.zshrc
 
 
 [Tutorial](https://www.codementor.io/linux/tutorial/configure-linux-toolset-zsh-tmux-vim)
+
+
+## currupt history file .zsh_history 
+
+```shell
+mv .zsh_history .zsh_history_bad
+strings .zsh_history_bad > .zsh_history
+fc -R .zsh_history
+```

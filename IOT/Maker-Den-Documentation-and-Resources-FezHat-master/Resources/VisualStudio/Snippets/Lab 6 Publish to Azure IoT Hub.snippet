@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Lab 6 Publish to Azure IoT Hub</Title>
+      <Shortcut>lab6</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[        
+try  // Exception handling if problem streaming telemetry to Azure IoT Hub
+{
+    hat.D3.Color = publishColor;      // turn on publish indicator LED
+
+    var temperature = hat.GetTemperature(); // read temperature from the FEZ HAT
+    var light = hat.GetLightLevel() * 100;        // read light level from the FEZ HAT
+    var json = telemetry.ToJson(temperature, light, 0, 0);  //serialise to JSON
+
+    var content = new Message(json);
+    await deviceClient.SendEventAsync(content); //Send telemetry data to IoT Hub
+}
+catch { telemetry.Exceptions++; }
+finally { hat.D3.TurnOff(); }  
+            ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+
+
+

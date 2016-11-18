@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Lab 4b Setup Orb</Title>
+      <Shortcut>lab4b</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[        
+myTransformGroup.Children.Add(myTranslate);
+orb.RenderTransform = myTransformGroup;
+
+this.hat = await FEZHAT.CreateAsync();
+
+timer = new DispatcherTimer();
+this.timer.Interval = TimeSpan.FromMilliseconds(100);
+this.timer.Tick += this.UpdateOrb;
+this.timer.Start();          
+            ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

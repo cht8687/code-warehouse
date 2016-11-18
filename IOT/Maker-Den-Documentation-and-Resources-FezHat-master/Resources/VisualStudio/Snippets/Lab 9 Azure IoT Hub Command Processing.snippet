@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Lab 9 Azure IoT Hub Command Processing</Title>
+      <Shortcut>lab9</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[        
+while (true)
+{
+    try
+    {
+        Message receivedMessage = await deviceClient.ReceiveAsync();
+        if (receivedMessage == null)
+        {
+            await Task.Delay(2000);
+            continue;
+        }
+
+        await deviceClient.CompleteAsync(receivedMessage);
+
+        string command = Encoding.ASCII.GetString(receivedMessage.GetBytes()).ToUpper();
+        if (string.IsNullOrEmpty(command) || telemetry.SetSampleRateInSeconds(command)) { continue; }
+
+        switch (command[0])
+        {
+            case 'R':
+                publishColor = FEZHAT.Color.Red;
+                break;
+            case 'G':
+                publishColor = FEZHAT.Color.Green;
+                break;
+            case 'B':
+                publishColor = FEZHAT.Color.Blue;
+                break;
+            case 'Y':
+                publishColor = FEZHAT.Color.Yellow;
+                break;
+            case 'M':
+                publishColor = FEZHAT.Color.Magneta;
+                break;
+            default:
+                Debug.WriteLine("Unrecognized command: {0}", command);
+                break;
+        }
+
+        hat.D3.Color = publishColor;
+    }
+    catch { } // just keep going
+}
+            ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+
+
+
+
+

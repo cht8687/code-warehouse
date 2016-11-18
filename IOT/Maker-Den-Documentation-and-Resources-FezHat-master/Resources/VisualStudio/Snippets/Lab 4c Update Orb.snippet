@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Lab 4c Update Orb</Title>
+      <Shortcut>lab4c</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[        
+Temperature.Text = string.Format("The temperature is {0:N2}", hat.GetTemperature());
+Light.Text = string.Format("The light level is {0:N4}", hat.GetLightLevel());
+
+if (hat.IsDIO18Pressed())
+{
+    computedColour = Colors.DeepPink;
+}
+if (hat.IsDIO22Pressed())
+{
+    computedColour = Colors.Lime;
+}
+
+computedColour.A = (byte)(255 * hat.GetLightLevel());  // change the orb brightness           
+
+orb.Fill = new SolidColorBrush(computedColour); 
+
+orb.UpdateLayout(); // update the orb with the new colour and position
+            ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

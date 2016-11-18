@@ -1,0 +1,15 @@
+SELECT
+    iothub.connectiondeviceid deviceid,
+    Geo AS GeoLocation,
+    Max(DateAdd(Hour, 10, EventEnqueuedUtcTime)) AS TimeCreated, -- AU EST UTC + 10
+    Avg(Celsius) AS Temperature,
+    AVG(Humidity) AS Humidity,
+    AVG(Light) AS Light,
+    AVG(HPa) AS AirPressure
+INTO
+    [PowerBI]
+FROM
+    [TelemetryHUB] TIMESTAMP BY EventEnqueuedUtcTime
+GROUP BY
+    iothub.connectiondeviceid, Geo,
+    TumblingWindow(Second, 30)

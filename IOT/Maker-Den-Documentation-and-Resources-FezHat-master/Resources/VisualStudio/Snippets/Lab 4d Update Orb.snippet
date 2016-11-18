@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Lab 4d Update Orb</Title>
+      <Shortcut>lab4d</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[        
+Temperature.Text = string.Format("The temperature is {0:N2}", hat.GetTemperature());
+Light.Text = string.Format("The light level is {0:N4}", hat.GetLightLevel());
+
+hat.GetAcceleration(out x, out y, out z);
+
+computedColour = ComputeColour(x, y, z);
+
+orb.Fill = new SolidColorBrush(computedColour);
+
+ComputeOrbPosition(x, y);
+
+orb.UpdateLayout(); // update the orb with the new colour and position
+   
+            ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

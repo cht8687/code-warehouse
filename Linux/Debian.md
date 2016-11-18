@@ -27,20 +27,26 @@ sudo service mongod restart
 ```
 
 # i3 
-
+```bash
 su
 dpkg-reconfigure x11-common
-
+```
 
 # VS Code
 
 https://code.visualstudio.com/docs/setup/linux
 
 # Install .Deb files
-
+```bash
 sudo dpkg -i packagename.deb
+```
 
 # Uninstall 
-
+```bash
 sudo dpkg -r packagename
+```
 
+# unzip tar zxvf .tar.gz      
+```bash
+tar zxvf WebStorm-2016.3.tar.gz
+```

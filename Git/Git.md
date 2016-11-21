@@ -45,3 +45,11 @@ git fetch upstream
 git checkout master
 git rebase upstream/master
 ```
+
+#stash
+
+```bash
+git stash save "my_stash"
+git stash list
+git stash apply stash^{/my_stash}
+```

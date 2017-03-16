@@ -46,10 +46,21 @@ git checkout master
 git rebase upstream/master
 ```
 
-#stash
+#Stash
 
 ```bash
 git stash save "my_stash"
 git stash list
 git stash apply stash^{/my_stash}
+```
+
+#Remove untracked files
+
+```bash
+git clean -fdx
+
+-f - force
+-d - directories too
+-x - remove ignored files too ( don't use this if you don't want to remove ignored files)
+
 ```

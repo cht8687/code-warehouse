@@ -5,3 +5,9 @@
 or
 # netstat -l
 ```
+
+# lsof Command Examples
+```bash
+# lsof -i
+```
+

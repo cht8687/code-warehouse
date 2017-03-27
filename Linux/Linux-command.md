@@ -11,3 +11,7 @@ or
 # lsof -i
 ```
 
+# create symlink link 
+```bash
+ln -s jdk1.8.0_121/ latest
+```

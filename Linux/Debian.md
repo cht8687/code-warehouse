@@ -50,3 +50,15 @@ sudo dpkg -r packagename
 ```bash
 tar zxvf WebStorm-2016.3.tar.gz
 ```
+
+# Postgres
+Install Postgres
+```bash
+apt-get install postgresql-9.4
+```
+
+Change default password
+```bash
+$ sudo -u postgres psql postgres
+postgres=# \password postgres
+```

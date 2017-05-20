@@ -58,3 +58,10 @@
 ##Machine Learning
 
 - [ ] [Introduction to Machine Learning with Python](http://shop.oreilly.com/product/0636920030515.do)
+
+##FP
+- [ ] [Real world haskell](http://shop.oreilly.com/product/9780596514983.do)
+- [ ] [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/learnyouahaskell.pdf)
+- [ ] [haskell programming from first principles](http://www.goodreads.com/book/show/25587599-haskell-programming)
+- [ ] [Categories for the Working Mathematician](http://www.springer.com/gp/book/9780387984032)
+- [ ] [mock a mockingbird](https://www.amazon.com/Mock-Mockingbird-Raymond-Smullyan/dp/0192801422)

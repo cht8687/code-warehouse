@@ -64,3 +64,10 @@ git clean -fdx
 -x - remove ignored files too ( don't use this if you don't want to remove ignored files)
 
 ```
+
+#Get commit based on message
+
+```base
+git log --grep=".. any text you need to find ..."
+
+```

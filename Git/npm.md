@@ -12,4 +12,7 @@ $ npm install
 $ npm cache clean
 ```
 
-
+```bash
+git rm -r --cached node_modules
+git commit -m "removing node_modules"
+```

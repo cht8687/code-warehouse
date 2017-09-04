@@ -67,7 +67,14 @@ git clean -fdx
 
 #Get commit based on message
 
-```base
+```bash
 git log --grep=".. any text you need to find ..."
 
+```
+
+# git remove ignored files
+```bash
+git rm -r --cached .
+git add .
+git commit -am "Remove ignored files"
 ```

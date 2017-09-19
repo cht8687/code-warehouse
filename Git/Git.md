@@ -72,9 +72,14 @@ git log --grep=".. any text you need to find ..."
 
 ```
 
-# git remove ignored files
+#Git remove ignored files
 ```bash
 git rm -r --cached .
 git add .
 git commit -am "Remove ignored files"
 ```
+
+#Get satus of changes
+```bash
+ git diff --shortstat develop
+ ```

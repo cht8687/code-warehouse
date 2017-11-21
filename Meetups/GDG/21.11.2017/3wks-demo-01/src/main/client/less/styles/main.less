@@ -1,0 +1,77 @@
+@import "../mixins/mixins.less";
+
+.inline-btn-group {
+    display: flex;
+    flex-wrap: nowrap;
+
+    > * {
+        flex: 1 1 auto;
+    }
+
+    > * + * {
+        margin-left: 8px;
+    }
+}
+
+.default-layout {
+    padding: 32px 24px;
+}
+
+.admin-layout {
+    display: flex;
+    flex-direction: column;
+
+    .main {
+        flex: 1 1;
+        display: flex;
+        padding: 32px 24px;
+    }
+}
+
+.centered-panel-layout {
+    background: radial-gradient(at top, @background, #000000) no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        color: white;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    > div {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .centered-panel {
+        padding: 16px 24px 24px 24px;
+        flex: 1 1 auto;
+        border-radius: 0 !important;
+
+        .lead {
+            text-align: center;
+        }
+    }
+
+    @media only screen and (min-width: 600px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > div {
+            flex: 1 1 auto;
+            display: block;
+        }
+
+        .centered-panel {
+            width: 480px;
+            height: auto;
+            border-radius: 2px !important;
+        }
+    }
+}

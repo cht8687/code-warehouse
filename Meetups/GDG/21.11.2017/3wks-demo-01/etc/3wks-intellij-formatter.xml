@@ -1,0 +1,9 @@
+<code_scheme name="3wks">
+  <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
+  <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
+  <option name="RIGHT_MARGIN" value="200" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <codeStyleSettings language="JAVA">
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+  </codeStyleSettings>
+</code_scheme>

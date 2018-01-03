@@ -10,13 +10,15 @@ import { StoreModule } from './store/module';
 import { IntroComponent } from './components/slides/intro/intro.component';
 import { BaseSlideComponent } from './components/slides/base-slide/base-slide.component';
 import { FrameworksComponent } from './components/slides/frameworks/frameworks.component';
+import { PresentationComponent } from './containers/presentation/presentation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IntroComponent,
     BaseSlideComponent,
-    FrameworksComponent
+    FrameworksComponent,
+    PresentationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,6 @@
+<div class="container">
+    <div class="slide" *ngIf="currentSlide$  | async as currentSlide">
+        <app-intro  *ngIf="currentSlide == 'INTRO'"></app-intro>
+        <app-frameworks *ngIf="currentSlide == 'FRAMEWORK'"></app-frameworks>
+    </div>
+</div>

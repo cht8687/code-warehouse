@@ -1,6 +1,6 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    {{ title }}!
-  </h1>
+<div class="container">
+    <div class="slide" *ngIf="currentSlide$  | async as currentSlide">
+        <app-intro  *ngIf="currentSlide == 'INTRO'"></app-intro>
+        <app-frameworks *ngIf="currentSlide == 'FRAMEWORK'"></app-frameworks>
+    </div>
 </div>

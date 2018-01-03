@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1a1826;
+  color: #d9d2bf;
+  cursor: default;
+}
+
+.slide {
+  padding-top: 7em;
+
+  h1 {
+    font-size: 8.5em;
+    text-align: center;
+
+    &.extra-large {
+      font-size: 12em;
+    }
+  }
+
+  h2 {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  ul {
+    font-size: 3em;
+  }
+}

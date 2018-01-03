@@ -7,11 +7,16 @@ import { AppComponent } from './app.component';
 
 // This app's ngModules
 import { StoreModule } from './store/module';
-
+import { IntroComponent } from './components/slides/intro/intro.component';
+import { BaseSlideComponent } from './components/slides/base-slide/base-slide.component';
+import { FrameworksComponent } from './components/slides/frameworks/frameworks.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IntroComponent,
+    BaseSlideComponent,
+    FrameworksComponent
   ],
   imports: [
     BrowserModule,

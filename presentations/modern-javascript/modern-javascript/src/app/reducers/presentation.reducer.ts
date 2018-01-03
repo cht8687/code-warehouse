@@ -5,7 +5,7 @@ import {
   INTRO,
   FRAMEWORK
 } from '../constants/slides';
-import { NEXT_SLIDE, PREV_SLIDE } from '../constants/ActionTypes';
+import { PresentionActions } from '../actions/presentationActions';
 
 const SLIDES = [
     INTRO,
@@ -42,10 +42,10 @@ export const PresentationReducer =
 function(state: PresentationState = INITIAL_STATE, action: Action): PresentationState {
   const { type } = action;
   switch (type) {
-    case NEXT_SLIDE:
+    case PresentionActions.NEXT_SLIDE:
       return nextSlide(state);
 
-    case PREV_SLIDE:
+    case PresentionActions.PREV_SLIDE:
       return prevSlide(state);
 
     default:

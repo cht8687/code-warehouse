@@ -1,16 +1,16 @@
-import { 
-  NEXT_SLIDE,
-  PREV_SLIDE
-} from '../constants/ActionTypes';
-  
-export function nextSlide() {
-  return {
-    type: NEXT_SLIDE
-  };
-}
+import { Injectable } from '@angular/core';
+import { Action } from 'redux';
 
-export function prevSlide() {
-  return {
-    type: PREV_SLIDE
-  };
+@Injectable()
+export class PresentionActions {
+  static readonly NEXT_SLIDE = 'NEXT_SLIDE';
+  static readonly PREV_SLIDE = 'PREV_SLIDE';
+
+  increment(): Action {
+    return { type: PresentionActions.NEXT_SLIDE };
+  }
+
+  decrement(): Action {
+    return { type: PresentionActions.PREV_SLIDE };
+  }
 }

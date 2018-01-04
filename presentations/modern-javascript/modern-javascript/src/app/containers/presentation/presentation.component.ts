@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild, Inject } from '@angular/core';
 import { dispatch, select } from '@angular-redux/store';
-import $ from 'jquery';
 import { Observable } from 'rxjs/Observable';
 import { 
   INTRO
@@ -29,23 +28,13 @@ export class PresentationComponent implements OnInit {
   ngOnInit() {}
 
   ngAfterViewChecked() { 
-    $(document).on('click', this.documentClickHandler); 
   }
 
-  documentClickHandler(e) {
-    console.log(1);
-    let windowSize = 0;
-    let currentPosX = 0;
-    let right = 0;
+  incrementClickHandler(){
+    this.decrement();
+  }
 
-    windowSize = $(window).width();
-    currentPosX = e.pageX;
-    right = Math.round(currentPosX / windowSize);
-
-    if (e.which === 39 || right) {
-       this.increment();
-    } else if (e.which === 37 || !right) {
-       this.decrement();
-    }
+  decrementClickHandler() {
+    this.decrement();
   }
 }

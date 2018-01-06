@@ -3,15 +3,16 @@ import { tassign } from 'tassign';
 import * as PresentationActions from '../actions/presentationActions';
 import { 
   INTRO,
-  FRAMEWORK
+  FRAMEWORK,
+  GIT
 } from '../constants/slides';
 import { PresentionActions } from '../actions/presentationActions';
 
 const SLIDES = [
     INTRO,
-    FRAMEWORK
+    FRAMEWORK,
+    GIT
 ];
-
 export interface PresentationState {
   slideIndex: Number;
   currentSlide: string

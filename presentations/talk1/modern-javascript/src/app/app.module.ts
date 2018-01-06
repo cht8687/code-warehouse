@@ -10,13 +10,15 @@ import { StoreModule } from './store/module';
 import { IntroComponent } from './components/slides/intro/intro.component';
 import { FrameworksComponent } from './components/slides/frameworks/frameworks.component';
 import { PresentationComponent } from './containers/presentation/presentation.component';
+import { GitComponent } from './components/slides/git/git.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IntroComponent,
     FrameworksComponent,
-    PresentationComponent
+    PresentationComponent,
+    GitComponent
   ],
   imports: [
     BrowserModule,

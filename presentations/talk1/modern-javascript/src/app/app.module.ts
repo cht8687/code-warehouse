@@ -11,6 +11,10 @@ import { IntroComponent } from './components/slides/intro/intro.component';
 import { FrameworksComponent } from './components/slides/frameworks/frameworks.component';
 import { PresentationComponent } from './containers/presentation/presentation.component';
 import { GitComponent } from './components/slides/git/git.component';
+import { LintComponent } from './components/slides/lint/lint.component';
+import { FpComponent } from './components/slides/fp/fp.component';
+import { CodereviewComponent } from './components/slides/codereview/codereview.component';
+import { NogoodComponent } from './components/slides/nogood/nogood.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { GitComponent } from './components/slides/git/git.component';
     IntroComponent,
     FrameworksComponent,
     PresentationComponent,
-    GitComponent
+    GitComponent,
+    LintComponent,
+    FpComponent,
+    CodereviewComponent,
+    NogoodComponent
   ],
   imports: [
     BrowserModule,

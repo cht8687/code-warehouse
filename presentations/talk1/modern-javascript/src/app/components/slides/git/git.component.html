@@ -1,3 +1,36 @@
-<p>
-  git works!
-</p>
+<div>
+  <h2 class="extra-large">Git is our friend</h2>
+  <h3 class="section"><i class="fa fa-star"></i>  Git flow </h3>
+    <ul>
+      <li>Feature branch </li>
+      <li>Bugfix branch </li>
+      <li>Release branch </li>
+      <li>hotfixes branch </li>
+    </ul>
+  <h3 class="section"><i class="fa fa-star"></i>   GUI vs Commands?</h3>
+  <h3 class="section"><i class="fa fa-star"></i>   Git tips</h3>
+  1.Set alias:
+  <pre>
+      <code>
+        git config --global alias.co checkout
+        git config --global alias.br branch
+        git config --global alias.ci commit
+        git config --global alias.st status
+      </code>
+  </pre>
+  2.Squash commits from last N commits and push to remote
+  <pre>
+      <code>
+        git reset --soft HEAD^N
+        git commit -m"[CC-9999]:Raghul, this is a feature, not a bug"
+        git push --force
+      </code>
+  </pre>
+  3.Get commit based on message
+  <pre>
+      <code>
+        git log --grep=".. any text you need to find ..."
+      </code>
+  </pre>
+</div>
+  

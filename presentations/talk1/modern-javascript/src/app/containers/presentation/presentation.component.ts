@@ -35,6 +35,6 @@ export class PresentationComponent implements OnInit {
   }
 
   decrementClickHandler() {
-    this.decrement();
+    this.increment();
   }
 }

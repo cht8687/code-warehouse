@@ -11,6 +11,11 @@
         <div class="slide" *ngIf="currentSlide$  | async as currentSlide">
             <app-intro  *ngIf="currentSlide == 'INTRO'"></app-intro>
             <app-frameworks *ngIf="currentSlide == 'FRAMEWORK'"></app-frameworks>
+            <app-git *ngIf="currentSlide == 'GIT'"></app-git>
+            <app-lint *ngIf="currentSlide == 'LINT'"></app-lint>
+            <app-fp *ngIf="currentSlide == 'FP'"></app-fp>
+            <app-codereview *ngIf="currentSlide == 'CODE_REVIEW'"></app-codereview>
+            <app-nogood *ngIf="currentSlide == 'NOT_GOOD'"></app-nogood>
         </div>
     </div>
 </div>

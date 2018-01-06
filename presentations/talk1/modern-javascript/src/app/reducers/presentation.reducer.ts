@@ -4,14 +4,21 @@ import * as PresentationActions from '../actions/presentationActions';
 import { 
   INTRO,
   FRAMEWORK,
-  GIT
+  GIT,
+  LINT,
+  FP,
+  CODER_EVIEW,
+  NOT_GOOD
 } from '../constants/slides';
 import { PresentionActions } from '../actions/presentationActions';
 
 const SLIDES = [
     INTRO,
-    FRAMEWORK,
-    GIT
+    GIT,
+    LINT,
+    FP,
+    CODER_EVIEW,
+    NOT_GOOD
 ];
 export interface PresentationState {
   slideIndex: Number;

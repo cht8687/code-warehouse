@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import '~font-awesome/css/font-awesome.css';
+@import "colors.scss";
 
 body {
   padding: 0;
@@ -50,4 +51,20 @@ body {
   -moz-transition: all 350ms ease;
   -o-transition: all 350ms ease;
   transition: all 350ms ease;
+}
+
+pre {
+  color: #5bb191;
+}
+
+.section {
+  color: #8bc34a;
+}
+
+.sub-section {
+  margin-left: 50px;
+}
+
+.code {
+  color: #5bb191
 }

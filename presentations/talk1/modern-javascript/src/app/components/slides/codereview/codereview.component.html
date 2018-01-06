@@ -1,0 +1,23 @@
+<div>
+  <h2 class="extra-large">From Merge Request to Code Review</h2>
+  <h3 class="section"><i class="fa fa-star"></i> Steps: </h3>
+  <h3>1. Rebase feature branch from latest delevelop: <span class="code">git rebase develop</span></h3><br />
+  <h3>2. Run the test: <span class="code">gulp test</span></h3><br />
+  <h3>3. Run the lint tool: <span class="code">gulp vet</span></h3><br />
+  <h3>4. Squash your commit message:</h3><br />
+    <section class="sub-section">
+      <p>Commit message should be meaningful, considering following commit message:</p>
+      <h3>
+        <li><span class="code">[CC-9999]: fixes issues of the code reviews</span> <i class="fa fa-thumbs-o-down blue" aria-hidden="true"></i></li>
+        <li><span class="code">[CC-9999]: fixes the code reviews</span> <i class="fa fa-thumbs-o-down blue" aria-hidden="true"></i></li>
+        <li><span class="code">[CC-9999]: Add context menu for LHS panel menu</span> <i class="fa fa-thumbs-o-up blue" aria-hidden="true"></i></li>
+      </h3>
+    </section>
+    <section class="sub-section">
+      <p>Format of commit message: <br /></p>
+        <span class="code">[CC-XXXX]: Add context menu for LHS panel menu.</span>
+    </section>
+  <h3>5. Raise a merge request</h3><br />
+  <h3>6. Notify reviewer</h3><br />
+  <h3>7. Make changes and repeat step 1</h3><br />
+</div>

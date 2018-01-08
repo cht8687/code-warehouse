@@ -13,7 +13,7 @@ import {
 import { PresentionActions } from '../actions/presentationActions';
 
 const SLIDES = [
-    // INTRO,
+    INTRO,
     GIT,
     // LINT,
     // FP,

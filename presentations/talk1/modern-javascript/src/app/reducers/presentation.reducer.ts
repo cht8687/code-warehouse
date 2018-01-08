@@ -13,12 +13,12 @@ import {
 import { PresentionActions } from '../actions/presentationActions';
 
 const SLIDES = [
-    INTRO,
+    // INTRO,
     GIT,
-    LINT,
-    FP,
-    CODER_EVIEW,
-    NOT_GOOD
+    // LINT,
+    // FP,
+    CODER_EVIEW
+    // NOT_GOOD
 ];
 export interface PresentationState {
   slideIndex: Number;

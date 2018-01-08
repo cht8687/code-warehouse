@@ -1,14 +1,59 @@
 <div>
   <h2 class="extra-large">Lint Your JS</h2>
-  <h3 class="section"><i class="fa fa-star"></i>Linting tools can: </h3>
+  <h3 class="section"><i class="fa fa-star"></i>  Linting tools can: </h3>
   <ul>
     <li><h4>Reduce silly mistakes</h4></li>
     <li><h4>Keep maintaining same coding style</h4></li>
   </ul>
-  <h3 class="section"><i class="fa fa-star"></i>Popular Linting tools:</h3>
-  <ul>
-    <li><h4>ESLint</h4></li>
-    <li><h4>JSHint</h4></li>
-  </ul>
-  In CJA, you can run <span class="code">gulp vet</span>
+  <h3 class="section"><i class="fa fa-star"></i>In CJA, we chose: <a href='https://github.com/eslint/eslint' target="_blank">ESLint</a></h3>
+  Installation
+  <pre>
+      <code>
+        $ npm install -g eslint
+      </code>
+  </pre>
+
+  Init
+  <pre>
+      <code>
+        $ eslint --init 
+      </code>
+  </pre>
+
+  Lint
+  <pre>
+      <code>
+        $ eslint yourfile.js
+      </code>
+  </pre>
+
+  Example of a .eslintrc file:
+  <pre>
+      <code>
+          {{ '{' }}
+            "extends": "angular",
+            "rules": {{ '{' }}
+                // enable additional rules
+                "indent": ["error", 4],
+                "linebreak-style": ["error", "unix"],
+                "quotes": ["error", "double"],
+                "semi": ["error", "always"],
+        
+                // override default options for rules from base configurations
+                "comma-dangle": ["error", "always"],
+                "no-cond-assign": ["error", "always"],
+        
+                // disable rules from base configurations
+                "no-console": "off",
+            {{ '}' }}
+          {{ '}' }}
+      </code>
+      - 3 levels:
+      <code>
+          "off" or 0 - turn the rule off
+          "warn" or 1 - turn the rule on as a warning
+          "error" or 2 - turn the rule on as an error
+      </code>
+  </pre>
+  <h3 class="section"><i class="fa fa-star"></i>In CJA, you can run: gulp vet</h3>
 </div>

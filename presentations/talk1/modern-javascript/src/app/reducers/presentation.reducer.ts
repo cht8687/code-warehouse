@@ -15,9 +15,9 @@ import { PresentionActions } from '../actions/presentationActions';
 const SLIDES = [
     INTRO,
     GIT,
-    // LINT,
-    // FP,
-    CODER_EVIEW
+    CODER_EVIEW,
+    LINT,
+    FP
     // NOT_GOOD
 ];
 export interface PresentationState {

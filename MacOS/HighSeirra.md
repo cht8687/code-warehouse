@@ -3,3 +3,4 @@ xcode-select --install
 
 # change xcrun developer path
 sudo xcode-select --switch /Library/Developer/CommandLineTools
+

@@ -83,3 +83,8 @@ git commit -am "Remove ignored files"
 ```bash
  git diff --shortstat develop
  ```
+
+#Make git aware filename letter case change
+```bash
+git mv -f OldFileNameCase newfilenamecase
+```

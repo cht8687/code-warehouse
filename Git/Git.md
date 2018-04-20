@@ -87,4 +87,8 @@ git commit -am "Remove ignored files"
 #Make git aware filename letter case change
 ```bash
 git mv -f OldFileNameCase newfilenamecase
+
+or 
+
+git config core.ignorecase false
 ```

@@ -6,6 +6,7 @@ alias ls='ls -laghFG'
 alias ll='ls -laghFG'
 alias l='ls -laghFG'
 alias cd..='cd ..'
+alias g='git'
 
 # Git
 git config --global color.ui true
@@ -24,11 +25,15 @@ alias dsf='git diff --color | diff-so-fancy'
 alias reload='source ~/.bash_profile'
 
 # Services
-alias ms='sudo service mongod start'
-alias msp='sudo service mongod stop'
-alias mrs='sudo service mongod restart'
-alias mlog='cat /var/log/mongodb/mongod.log'
 
+# nginx
+alias nginxstart='sudo service nginx start'
+alias nginxstop='sudo service nginx stop'
+alias confignginx='sudo vim /etc/nginx/sites-enabled/default'
+alias lint='./node_modules/eslint/bin/eslint.js --fix src';
 # tmux
 
-alias t='tmux'
+alias tm='tmux'
+
+
+alias fixzsh='mv .zsh_history .zsh_history_bad;strings .zsh_history_bad > .zsh_history;fc -R .zsh_history';

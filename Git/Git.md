@@ -92,3 +92,7 @@ or
 
 git config core.ignorecase false
 ```
+
+#Make git remember credential
+git config --global credential.helper store
+

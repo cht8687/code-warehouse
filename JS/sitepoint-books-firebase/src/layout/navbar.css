@@ -1,0 +1,3 @@
+.active {
+  @apply font-bold text-secondary bg-primary;
+}

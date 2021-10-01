@@ -41,7 +41,7 @@
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
     "immutable": "^3.8.2",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.0",
     "popper.js": "^1.12.9",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
